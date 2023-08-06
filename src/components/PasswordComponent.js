@@ -4,7 +4,7 @@ class PasswordComponent extends Component {
         super(props);
         this.state = {
             inputValue: '',
-            staticPassword: 'hello',
+            staticPassword: 'kachua',
             showChildren: false,
         };
 

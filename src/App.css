@@ -15,3 +15,13 @@ body {
   background: #666;
 }
 
+
+.variable-background-size {
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .variable-background-size {
+    background-size: contain;
+  }
+}

@@ -5,7 +5,7 @@ import ImageSlide from './components/ImageSlide'
 function App() {
   return (
     <div className="App">
-      <div className="container mt-5">
+      <div className="">
         <PasswordComponent>
           <ImageSlide/>
         </PasswordComponent>

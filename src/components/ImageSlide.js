@@ -13,8 +13,8 @@ const divStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundSize: 'cover',
-  height: '92vh'
+  backgroundRepeat: 'no',
+  height: '85vh',
 }
 
 const slideImages = [
@@ -41,19 +41,20 @@ const slideProperties = {
   arrows: true,
   autoplay: false,
   canSwipe: true,
+  slidesToShow: 1,
 };
 const ImageSlide = () => {
     return (
       <div className="slide-container">
-        <Zoom {...slideProperties}>
+        <Slide {...slideProperties}>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+              <div class='variable-background-size' style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                 {slideImage.caption?<span style={spanStyle}>{slideImage.caption}</span>:"" }
               </div>
             </div>
           ))} 
-        </Zoom>
+        </Slide>
       </div>
     )
 }
