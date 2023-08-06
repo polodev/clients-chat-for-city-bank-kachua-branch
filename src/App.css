@@ -1,5 +1,6 @@
+
 body {
-  color: black;
+  background: #eee;
 }
 
 .indicator {
@@ -20,8 +21,28 @@ body {
   background-size: cover;
 }
 
+
+figure {
+  display: flex;
+  justify-content: center;
+  alignItems: center;
+  text-align: center;
+}
+figure img {
+  display: inline-block;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+figure figcaption {
+  padding: 20px;
+  background: rgb(239, 239, 239, 0.9);
+  color: red;
+  font-size: 25px;
+}
+
 @media screen and (max-width: 768px) {
   .variable-background-size {
     background-size: contain;
   }
 }
+

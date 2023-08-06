@@ -13,8 +13,9 @@ const divStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundRepeat: 'no',
-  height: '85vh',
+  backgroundRepeat: 'no-repeat',
+  height: '92vh',
+  backgroundSize: 'contain',
 }
 
 const slideImages = [
@@ -49,7 +50,7 @@ const ImageSlide = () => {
         <Slide {...slideProperties}>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div class='variable-background-size' style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                 {slideImage.caption?<span style={spanStyle}>{slideImage.caption}</span>:"" }
               </div>
             </div>
