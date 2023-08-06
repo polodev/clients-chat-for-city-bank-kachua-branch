@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://polodev.github.io/clients-chat-for-city-bank-kachua-branch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
