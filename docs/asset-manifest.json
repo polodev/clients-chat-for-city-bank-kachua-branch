@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/clients-chat-for-city-bank-kachua-branch/static/css/main.dc3571ce.css",
-    "main.js": "/clients-chat-for-city-bank-kachua-branch/static/js/main.bccc5a20.js",
+    "main.js": "/clients-chat-for-city-bank-kachua-branch/static/js/main.0f253f1b.js",
     "static/js/787.28cb0dcd.chunk.js": "/clients-chat-for-city-bank-kachua-branch/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/clients-chat-for-city-bank-kachua-branch/index.html",
     "main.dc3571ce.css.map": "/clients-chat-for-city-bank-kachua-branch/static/css/main.dc3571ce.css.map",
-    "main.bccc5a20.js.map": "/clients-chat-for-city-bank-kachua-branch/static/js/main.bccc5a20.js.map",
+    "main.0f253f1b.js.map": "/clients-chat-for-city-bank-kachua-branch/static/js/main.0f253f1b.js.map",
     "787.28cb0dcd.chunk.js.map": "/clients-chat-for-city-bank-kachua-branch/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3571ce.css",
-    "static/js/main.bccc5a20.js"
+    "static/js/main.0f253f1b.js"
   ]
 }

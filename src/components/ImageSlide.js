@@ -28,7 +28,6 @@ const slideImages = [
     {url: 'https://raw.githubusercontent.com/devforking/khothin/main/chat/7.png', caption: '7'},
     {url: 'https://raw.githubusercontent.com/devforking/khothin/main/chat/8.png', caption: '8'},
     {url: 'https://raw.githubusercontent.com/devforking/khothin/main/chat/9.png', caption: '9'},
-    {url: 'https://raw.githubusercontent.com/devforking/khothin/main/chat/10.png', caption: '10'},
 ];
 
 const indicators = (index) => (<div className="indicator">{index + 1}</div>);
